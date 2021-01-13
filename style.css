@@ -1,0 +1,55 @@
+﻿body
+{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+/*background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);*/
+}
+.contenedor{
+	width:90%;
+	max-width: 1200px;
+	overflow: hidden;
+	margin: auto;
+	
+	padding: 60px 0;
+	display: flex;
+}
+.ciudades{
+	display:flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+
+	
+	/*background-image: linear-gradient(to right, rgba(86, 22, 151, 0.5) 0%, rgba(23, 7, 40, 0.5) 100%), url(fondo.jpg);*/
+}
+.cont-ciudades h4{
+	font-weight: 600;
+	color: #827B8A;
+	
+}
+.codigopostal{
+	font-size: 22px;
+}
+
+.cont-ciudades span{
+	font-weight: 900;
+	color: #46216C;
+}
+
+.cont-ciudades p{
+	color: #46216C ;
+	font-weight: 900;
+}
+
+.cont-ciudades{
+	width:45%;
+	text-align: center;
+		border-bottom: 3px solid #827B8A;
+	border-radius: 8px;
+}
+
+.cont-ciudades:hover{
+ background:#E3E2E4;
+ cursor: pointer;
+}
